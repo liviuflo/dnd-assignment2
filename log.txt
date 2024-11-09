@@ -1,0 +1,7 @@
+- model was overfitting
+- increased dropout, decreased all dimensions
+- overfitting still happening, so maybe we shouldn't perform teacher forcing on all batches
+
+- fixed: do not predict start when training
+- to do: implement beam search
+- to try: return to teacher forcing
